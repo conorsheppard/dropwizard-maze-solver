@@ -4,7 +4,7 @@ To run cd into project root directory /dropwizard-maze-solver and type:
 
 Use the following CURL command to post data to the resource:
 
-    curl localhost:8000/lab-escape -H 'Content-Type: application/json' -X POST -d '{ "startX":1, "startY":1, "la ["O"," "," ","O"], ["O"," ","O","O"], ["O"," "," ","O"] ] }'
+	curl localhost:8000/lab-escape -H 'Content-Type: application/json' -X POST -d '{ "startX":1, "startY":1, "labyrinth": [["O", "O", "O", "O"], ["O"," "," ","O"], ["O"," ","O","O"], ["O"," "," ","O"] ] }' | json_pp
 
 You should receive back the solved labyrinth in JSON format.
 
