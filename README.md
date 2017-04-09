@@ -1,3 +1,9 @@
+## Demo
+
+To watch a demo of the project please follow this link: https://youtu.be/ilsAn-AnVHU
+
+## Run
+
 To run cd into project root directory /dropwizard-maze-solver and type:
 
     java -jar target/maze-solver-0.0.1-SNAPSHOT.jar server mazesolver.yml
