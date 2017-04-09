@@ -8,6 +8,17 @@ Use the following CURL command to post data to the resource:
 
 You should receive back the solved labyrinth in JSON format.
 
+##Testing
+
+There are 5 tests in total included in the UnitTests.java file using the JUnit framework and an additional load balance test in ConcurrentLoadBalanceTest.java.
+
+The tests include:
+	- Test labyrinth is correct size
+	- Test labyrinth is solved correctly
+	- Test labyrinth with no escape route throw error
+	- Test rows of labyrinth are of equal length
+
+
 Example input
 
 	OOOOOOOOOO

@@ -1,14 +1,3 @@
 http:
   port: 8000
   adminPort: 8001
-
-# Database settings.
-database:
-    # the name of the JDBC driver, mysql in our case
-    driverClass: com.mysql.jdbc.Driver
-    # the username
-    user: root
-    # the password
-    password:
-    # the JDBC URL; the database is called DWGettingStarted
-    url: jdbc:mysql://localhost:127.0.0.1/Employee
